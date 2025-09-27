@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Alan Sans", sans-serif;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.section-one__navbar {
+    margin-top: 10px;
+}
+
+.section-two__f1img,
+.section-three__f2img,
+.section-four__f3img,
+.section-five__f4img {
+    height: 200px;
+    width: 150px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    display: inline-block;
+    border: solid black 2px;
+    padding: 10px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+.section-two__f1order,
+.section-three__f2order,
+.section-four__f3order,
+.section-five__f4order {
+    background-color: black;
+    color: white;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.contact-us {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-us__body {
+    display: inline-block;
+}
+
+.contact-us__name,
+.contact-us__age,
+.contact-us__email,
+.contact-us__button {
+    margin: 5px;
+}
+
+.contact-us__button {
+    background-color: yellow;
+    border-style: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: "Alan Sans", sans-serif;
+}
